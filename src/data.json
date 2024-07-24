@@ -1,0 +1,182 @@
+{
+    "nodesSource": [
+      {
+        "id": 0,
+        "name": "Frontend",
+        "health": 0
+      },
+      {
+        "id": 1,
+        "name": "Ad Service",
+        "health": 0
+      },
+      {
+        "id": "2",
+        "name": "Checkout Service",
+        "health": 0
+      },
+      {
+        "id": 3,
+        "name": "Cart Service",
+        "health": 0
+      },
+      {
+        "id": 4,
+        "name": "Currency Service",
+        "health": 0
+      },
+      {
+        "id": 5,
+        "name": "Email Service",
+        "health": 0
+      },
+      {
+        "id": 6,
+        "name": "Payment Service",
+        "health": 0
+      },
+      {
+        "id": 7,
+        "name": "Recommendation Service",
+        "health": 0
+      },
+      {
+        "id": 8,
+        "name": "Shipping Service",
+        "health": 0
+      },
+      {
+        "id": 9,
+        "name": "Queue(Kafka)",
+        "health": 0
+      },
+      {
+        "id": 10,
+        "name": "Accounting Service",
+        "health": 0
+      },
+      {
+        "id": 11,
+        "name": "Fraud Detection Service",
+        "health": 0
+      },
+      {
+        "id": 12,
+        "name": "Cache(redis)",
+        "health": 0
+      },
+      {
+        "id": 13,
+        "name": "Product Catalog Service",
+        "health": 0
+      },
+      {
+        "id": 14,
+        "name": "Quote Service",
+        "health": 0
+      },
+      {
+        "id": 15,
+        "name": "Image Provider Service",
+        "health": 0
+      }
+    ],
+    "edgesSource": [
+      {
+        "fromNode": 0,
+        "toNode": 1,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 3,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 4,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 2,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 13,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 7,
+        "successRate": 0
+      },
+      
+      {
+        "fromNode": 2,
+        "toNode": 9,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 3,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 4,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 5,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 6,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 13,
+        "successRate": 0
+      },
+      {
+        "fromNode": 2,
+        "toNode": 8,
+        "successRate": 0
+      },
+      {
+        "fromNode": 9,
+        "toNode": 10,
+        "successRate": 0
+      },
+      {
+        "fromNode": 0,
+        "toNode": 15,
+        "successRate": 0
+      },
+      {
+        "fromNode": 9,
+        "toNode": 11,
+        "successRate": 0
+      },
+      {
+        "fromNode": 3,
+        "toNode": 12,
+        "successRate": 0
+      },
+      {
+        "fromNode": 7,
+        "toNode": 13,
+        "successRate": 0
+      },
+      {
+        "fromNode": 8,
+        "toNode": 14,
+        "successRate": 0
+      }
+    ]
+}

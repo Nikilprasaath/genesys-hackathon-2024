@@ -1,0 +1,29 @@
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow:
+    0 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.graph-overview-component {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+}
+.graph-overview-component .yfiles-canvascomponent {
+  width: 100%;
+  height: 100%;
+}
+.overview-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125em;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #29323c;
+}

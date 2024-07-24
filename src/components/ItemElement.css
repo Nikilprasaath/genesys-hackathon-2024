@@ -1,0 +1,12 @@
+.item-element {
+  animation: item-element-animation 1s ease-out;
+}
+
+@keyframes item-element-animation {
+  0% {
+    background-color: #00d7ff;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
